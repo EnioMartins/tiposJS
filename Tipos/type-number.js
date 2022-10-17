@@ -1,13 +1,24 @@
-const numero1 = 1;
-const numero2 = 2;
+// tipo Number
 
-const resultado = numero1 + numero2;
+const meuNumero = 3;
 
- console.log(resultado);
+const primeiroNumero = 1;
+const segundoNumero = 2;
 
- const numeroFlutuante = 2.1;
- const operacao = resultado / numeroFlutuante;
+const operacaoMatematica = primeiroNumero - segundoNumero;
 
- 
+console.log(operacaoMatematica)
 
-console.log(Math.round(Math.PI));
+// ponto flutuante
+
+const numeroPontoFlutuante = 3.3;
+const pontoFlutuanteSemZero = .5;
+
+const novaOperacao = primeiroNumero / numeroPontoFlutuante;
+
+console.log(novaOperacao)
+
+// NaN -> Not A Number (não é um número)
+
+const alura = "Alura";
+console.log(alura * primeiroNumero)

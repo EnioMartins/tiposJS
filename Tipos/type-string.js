@@ -1,5 +1,13 @@
-const cidade = "belo horizonte";
-const input = "Belo Horizonte";
+const texto1 = "Olá, mundo!";
+const texto2 = 'Olá, mundo!';
+const senha = "senhaSuperSegura456!";
+const StringDeNumeros = "34567";
 
-const minusculo = input.toLocaleLowerCase();
-console.log(cidade === minusculo); // false
+const citacao = "Meu nome é ";
+const meuNome = "Leonardo";
+
+// concatenação (+)
+
+console.log(citacao + meuNome)
+
+//template string OU template literal
