@@ -7,4 +7,4 @@ console.log(numero == numeroString);
 
 // conversao explicita
 
-//console.log(numero + Number(numeroString));
+console.log(numero + Number(numeroString));
